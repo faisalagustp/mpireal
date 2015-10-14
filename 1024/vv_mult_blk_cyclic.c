@@ -54,7 +54,7 @@ int main(int argc, char** argv)
   if(MyRank == Root) {
 
     //input of vector A
-    VectorSize_A = 1024*1024;
+    VectorSize_A = 1024*1024*1024;
     Vector_A = (float *) malloc(VectorSize_A*sizeof(float));
 
     for(index=0;index < VectorSize_A; index++){

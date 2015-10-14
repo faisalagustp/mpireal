@@ -71,7 +71,7 @@ int main (int argc, char *argv[])
 
   if (grid.MyRank == Root){
 
-    NoofRows_A = 8;
+    NoofRows_A = 1024;
     NoofCols_A = NoofRows_A;
     NoofRows_B = NoofRows_A;
     NoofCols_B = NoofRows_A;

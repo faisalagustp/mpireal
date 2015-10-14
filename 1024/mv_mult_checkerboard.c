@@ -68,7 +68,7 @@ int main(int argc, char** argv)
 
   if(MyRank == 0)
   {
-    VectorSize = 1024*16;
+    VectorSize = 1024*32;
     NoofCols = VectorSize;
     NoofRows = VectorSize;
 

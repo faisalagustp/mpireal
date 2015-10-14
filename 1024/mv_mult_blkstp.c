@@ -54,7 +54,7 @@ int main(int argc, char** argv)
   {
     //creating matrix
     start = MPI_Wtime();
-    VectorSize = 1024*16;
+    VectorSize = 1024*32;
     NoofCols = VectorSize;
     NoofRows = VectorSize;
 
